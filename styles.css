@@ -768,6 +768,18 @@ button {
   transition: 0.5s;
 }
 
+.very-nice-4{
+  height: 0px;
+  width: 0px;
+  position: fixed;
+  top: 50%;
+  right: 50%;
+  z-index: -1;
+  overflow: auto;
+  transition: 0.5s;
+}
+
+
 .container{
   display: block;
   width: 25%;
@@ -797,6 +809,16 @@ button {
   height: auto;
   transition: 1s;
   top: 10%;
+  left: 41.5%;
+}
+
+
+.nice:hover .very-nice-4{
+  z-index: 0;
+  width: 15vw;
+  height: auto;
+  transition: 1s;
+  top: 79.5%;
   left: 41.5%;
 }
 
@@ -850,6 +872,22 @@ button {
   color: white;
   font-family: 'Montserrat';
 }
+
+.open-nice-4{
+  font-size: 16px;
+  background: rgb(51, 51, 51);
+  width: auto;
+  border-radius: 1.5vw;
+  display: inline-block;
+  padding: 1.5vw;
+  margin-left: 1vw;
+  margin-right: 1vw;
+  margin-bottom: 28px;
+  overflow: hidden;
+  color: white;
+  font-family: 'Montserrat';
+}
+
 
 .open-nice:hover{
   cursor: pointer;
