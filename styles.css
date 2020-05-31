@@ -815,11 +815,11 @@ button {
 
 .nice:hover .very-nice-4{
   z-index: 0;
-  width: 15vw;
+  width: 18vw;
   height: auto;
   transition: 1s;
-  top: 79.5%;
-  left: 41.5%;
+  top: 83%;
+  left: 40%;
 }
 
 .b13:hover{
@@ -902,6 +902,12 @@ button {
 }
 
 .open-nice-3:hover{
+  cursor: pointer;
+  
+  opacity: 0.8;
+}
+
+.open-nice-4:hover{
   cursor: pointer;
   
   opacity: 0.8;
