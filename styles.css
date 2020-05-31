@@ -868,6 +868,7 @@ button {
   margin-left: 1vw;
   margin-right: 1vw;
   margin-bottom: 28px;
+  margin-top: -1vw;
   overflow: hidden;
   color: white;
   font-family: 'Montserrat';
